@@ -421,6 +421,8 @@ def underscore(word: str) -> str:
 
 _irregular('cow', 'kine')
 _irregular('child', 'children')
+_irregular('foot', 'feet')
+_irregular('goose', 'geese')
 _irregular('human', 'humans')
 _irregular('man', 'men')
 _irregular('move', 'moves')
