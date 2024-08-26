@@ -419,11 +419,11 @@ def underscore(word: str) -> str:
     return word.lower()
 
 
-_irregular('person', 'people')
-_irregular('man', 'men')
-_irregular('human', 'humans')
-_irregular('child', 'children')
-_irregular('sex', 'sexes')
-_irregular('move', 'moves')
 _irregular('cow', 'kine')
+_irregular('child', 'children')
+_irregular('human', 'humans')
+_irregular('man', 'men')
+_irregular('move', 'moves')
+_irregular('person', 'people')
+_irregular('sex', 'sexes')
 _irregular('zombie', 'zombies')
