@@ -423,9 +423,11 @@ _irregular('cow', 'kine')
 _irregular('child', 'children')
 _irregular('foot', 'feet')
 _irregular('goose', 'geese')
-_irregular('human', 'humans')
-_irregular('man', 'men')
 _irregular('move', 'moves')
 _irregular('person', 'people')
 _irregular('sex', 'sexes')
 _irregular('zombie', 'zombies')
+
+# more specific rules at the end
+_irregular('man', 'men')
+_irregular('human', 'humans')
